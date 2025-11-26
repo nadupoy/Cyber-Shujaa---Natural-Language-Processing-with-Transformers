@@ -49,6 +49,22 @@ We were to complete the following tasks:
 
 ### What I learned 🧠
 
+**1. Creating a `python` `venv` on MacOS**
+
+Modern macOS systems often use `python3` instead of just `python`.
+
+Running the code below as in Windows OS resulted in a `python: command not found` error in the terminal:
+
+```python
+python -m venv natural_language_processing
+```
+
+The solution was to run the command using `python3` instead of just `python`:
+
+```python
+python3 -m venv natural_language_processing
+```
+
 ### Continued development 🌱
 
 ### Useful resources 📚
