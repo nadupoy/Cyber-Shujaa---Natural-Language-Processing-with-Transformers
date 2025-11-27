@@ -65,6 +65,16 @@ The solution was to run the command using `python3` instead of just `python`:
 python3 -m venv natural_language_processing
 ```
 
+**2. Installing `tensorflow` on mac silicon**
+
+The command `pip install tensorflow` doesn't work for installation on mac silicon, returning the error:
+
+```bash
+ERROR: Could not find a version that satisfies the requirement tensorflow (from versions: none)
+
+ERROR: No matching distribution found for tensorflow
+```
+
 ### Continued development 🌱
 
 ### Useful resources 📚
